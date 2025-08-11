@@ -1,0 +1,81 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Sticky header */
+header {
+  position: sticky;
+  top: 0;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #eaeaea;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Plans Section */
+.plans {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.plan-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.plan {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #ccc;
+  border: none;
+  cursor: pointer;
+}
